@@ -1,0 +1,12 @@
+@nilmod {
+	/* There is no id field. The filename defines the id of the mod. */
+	name: "Flyx";
+	description: "Cursed energy API for NilLoader";
+	authors: "pkstDev";
+	version: "${version}";
+}
+
+entrypoints {
+	/* premain is the only entrypoint defined by NilLoader itself. */
+	premain: "io.github.pkstdev.flyx.FlyxPremain";
+}
