@@ -48,3 +48,7 @@ mappings {
 	work 'net.fabricmc:yarn:1.18.2+build.3:v2'
 	via 'net.fabricmc:intermediary:1.18.2:v2'
 }
+
+java {
+	withSourcesJar()
+}
